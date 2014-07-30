@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:background="@color/white"
+    android:layout_height="fill_parent" android:weightSum="1" android:orientation="vertical" android:gravity="center_horizontal" android:id="@+id/mainlayout">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="93dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nta_logo" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:onClick="ButtonClicked"
+            android:text="Berufskolleg"
+            android:textScaleX="0"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="ButtonClicked"
+            android:text="Hochschule"
+            android:textScaleX="0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="ButtonClicked"
+            android:text="Vorsemester"
+            android:textScaleX="0"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:onClick="ButtonClicked"
+            android:text="BioTA"
+            android:textScaleX="0"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:onClick="ButtonClicked"
+            android:text="CTA"
+            android:textScaleX="0"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:visibility="invisible" />
+        
+    
+
+</LinearLayout>

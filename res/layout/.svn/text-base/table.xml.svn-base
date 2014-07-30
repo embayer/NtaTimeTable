@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lowestlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+            
+
+	     <TableLayout
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content" >
+
+	         <TableRow 	         
+	             android:layout_width="wrap_content"
+	         	 android:layout_height="wrap_content">
+	         	 
+	             <LinearLayout
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:orientation="horizontal" >
+
+	                 <Button
+	                     android:id="@+id/backbutton"
+	                     android:layout_width="wrap_content"
+	                     android:layout_height="wrap_content"
+	                     android:text="@string/back" 
+	                     android:layout_weight="0.25"
+	                     android:onClick="ButtonClicked">
+	                 </Button>
+	                 
+					 <TextView
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_weight="0.5" />
+					 
+	                 <Button
+	                     android:id="@+id/forwardbutton"
+	                     android:layout_width="wrap_content"
+	                     android:layout_height="wrap_content"
+	                     android:text="@string/forward" 
+	                     android:layout_weight="0.25"
+	                     android:onClick="ButtonClicked">
+	                 </Button>
+	             </LinearLayout>
+
+	         </TableRow>
+	         <TableRow>
+				<WebView
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	
+			    	android:id="@+id/vertWebView" >
+			    
+				</WebView>
+			</TableRow>
+		</TableLayout>
+
+  
+
+
+</LinearLayout>

@@ -1,0 +1,209 @@
+/* Style sheet for the silver calendar (default) */
+
+form {margin: 0;}
+table, td {font: 11px Verdana, Arial, sans-serif; color: #000;}
+
+h1,h2,h3 {font-family:Verdana,Arial,sans-serif;color:#ffffff}
+/* Background images for tables */
+/*
+.tbll	{background: url(images/shadow_l.gif) no-repeat; width:8px}
+.tblbot	{background: url(images/shadow_m.gif) repeat-x; width:100%}
+.tblr	{background: url(images/shadow_r.gif) no-repeat; width:8px}
+*/
+
+/*
+.alldaybg_1 {background: #50739B url(images/allday_1.gif) repeat-x; border-bottom: 1px solid #3C6080; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_2 {background: #53AB63 url(images/allday_2.gif) repeat-x; border-bottom: 1px solid #409050; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_3 {background: #FF592A url(images/allday_3.gif) repeat-x; border-bottom: 1px solid #E0401C; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_4 {background: #BE55AD url(images/allday_4.gif) repeat-x; border-bottom: 1px solid #984080; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_5 {background: #FF2B2A url(images/allday_5.gif) repeat-x; border-bottom: 1px solid #D01C18; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_6 {background: #EA62D4 url(images/allday_6.gif) repeat-x; border-bottom: 1px solid #A07400; min-height: 18px; padding-top: 5px; text-align: center;}
+.alldaybg_7 {background: #959595 url(images/allday_7.gif) repeat-x; border-bottom: 1px solid #888888; min-height: 18px; padding-top: 5px; text-align: center;}
+*/
+/*nta blau*/
+.alldaybg_1 {background: url(images/allday_nta_blau.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*nta orange*/
+.alldaybg_2 {background: url(images/allday_nta_orange.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*nta gruen*/
+.alldaybg_3 {background: url(images/allday_nta_gruen.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*gelb*/
+.alldaybg_4 {background: url(images/allday_gelb.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*tuerkis*/
+.alldaybg_5 {background: url(images/allday_tuerkis.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*nta rot*/
+.alldaybg_6 {background: url(images/allday_nta_rot.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+/*magenta*/
+.alldaybg_7 {background: url(images/allday_magenta.gif) repeat-x; height: 19px; padding-top: 5px; text-align: center;}
+
+.rowOn			{ background-color: #B0E8B0; border-top: 1px solid #fff; border-left: 1px solid #fff; }
+.rowOn2			{ background-color: #B0E8B0; border-top: 1px solid #fff; }
+.rowOff			{ background-color: #E1E8F1; border-top: 1px solid #fff; border-left: 1px solid #fff; }
+.rowOff2		{ background-color: #E1E8F1; border-top: 1px solid #fff; }
+.rowToday		{ background-color: #B0E8E8; border-top: 1px solid #fff; border-left: 1px solid #fff; }
+
+.padd			{ padding: 2px; }
+
+/* Styles for day and week events */
+/* Styles for day and week events */
+/*nta blau*/
+.eventbg_1    { background-color: #04305c; padding: 2px;}
+/*nta orange*/
+.eventbg_2    { background-color: #c76418; padding: 2px;}
+/*nta gruen*/
+.eventbg_3    { background-color: #3c6830; padding: 2px;}
+	/*gelb*/
+	.eventbg_4    { background-color: #dfbf00; padding: 2px; color: #000000; }
+	/*tuerkis*/
+	.eventbg_5	 	{ background-color: #0cbfdf; padding: 2px; color: #000000}
+	/*nta rot*/
+	.eventbg_6    { background-color: #8c140c; padding: 2px;}
+	/*magenta*/
+	.eventbg_7	 	{ background-color: #ca42b4; padding: 2px;}
+	
+	.allday a		{ font-size: 9px; color: #fff !important; font-weight: 900; text-decoration:none;}
+	.allday a:hover	{ text-decoration:underline;}
+	
+	/*nta blau*/
+	.eventbg2_1     { background-color: #24507c; border: 1px solid #04305c; }
+	/*nta orange*/
+	.eventbg2_2     { background-color: #e78438; border: 1px solid #c76418; }
+	/*nta gruen*/
+	.eventbg2_3     { background-color: #5c8850; border: 1px solid #3c6830; }
+	/*gelb*/
+	.eventbg2_4     { background-color: #ffdf20; border: 1px solid #dfbf00; }
+	/*tuerkis*/
+	.eventbg2_5	 		{ background-color: #2cdfff; border: 1px solid #0cbfdf; }
+	/*nta rot*/
+	.eventbg2_6     { background-color: #ac342c; border: 1px solid #8c140c; }
+	/*magenta*/
+	.eventbg2_7	 		{ background-color: #ea62d4; border: 1px solid #ca42b4; }
+	
+	.dayborder 		{ background-color: #fff; border-top: 1px solid #A1A5A9; }
+	.dayborder2 	{ background-color: #fff; border-top: 1px dashed #ccc; }
+	.dayborder3 	{ background-color: #fff; border-top: 1px dotted #888; }
+	
+	.title  		{ background-image: url(images/time_bg.gif); padding: 5px; }
+	.title h1 		{ font-family: Helvetica, sans-serif; font-size: 18px; color: #000; margin: 0px;}
+	
+	/* Main class used for all page wrapper tables */
+	.maintable		{ width: 100%; }
+	
+	/* Week view */
+	.weektoday		{ background-color: #dff; }
+	
+	/* Month View */
+	
+	.monthback		{ background-color: #A1A5A9; }
+	.monthreg		{ background-color: #fff; height: 105px; text-align: left; vertical-align: top; }
+	.monthoff		{ background-color: #F2F2F2; height: 105px; text-align: left;  vertical-align: top; }
+	.monthon		{ background-color: #F2F9FF; height: 105px; text-align: left;  vertical-align: top; }
+	.montheventtop	{ background-image: url(images/side_bg.gif); border-top: 1px solid #A1A5A9; }
+	.montheventline	{ border-right: 1px dotted #A1A5A9; }
+	
+	/* Year View */
+	
+	.medtitle		{ background-image: url(images/side_bg.gif); height: 20px; margin-top: 3px; font-weight: 900; }
+	.yearreg		{ background-color: #fff; height: 30px; width: 30px; text-align: right; vertical-align: top; font-size: 9px; }
+	.yearoff		{ background-color: #F2F2F2; height: 30px; width: 30px; text-align: right;  vertical-align: top; font-size: 9px; }
+	.yearon			{ background-color: #F2F9FF; height: 30px; width: 30px; text-align: right;  vertical-align: top; font-size: 9px; }
+	.yearmonth		{ background-color: #ccc; }
+	.yearweek		{ background-color: #eee; width: 30px; font-size: 9px; font-weight: 900; text-align: center; height: 15px; }
+	.yearleft		{ padding-right: 5px; padding-top: 5px; padding-bottom: 5px; }
+	.yearmiddle		{ padding: 5px; }
+	.yearright		{ padding-left: 5px; padding-top: 5px; padding-bottom: 5px; }
+	
+	/* older styles */
+	
+	.eventborder	{ background-image: url(images/day_title.gif); border: 1px #006699 solid; }
+	.eventbg	 	{ background-color: #6699CC; }
+	
+	.tfixed			{ table-layout: fixed; word-wrap: break-word; }
+	.calborder 		{ background-color: #fff; border: 1px #A1A5A9 solid; }
+	.dateback		{ background-color: #eee; }
+	.weekborder 	{ border-left: 1px solid #A1A5A9; border-top: 1px dashed #ccc; }
+	.weekborder2 	{ border-left: 1px solid #A1A5A9; border-top: 1px solid #A1A5A9; }
+	.weekborder3 	{ border-left: 1px solid #A1A5A9; border-top: 1px dotted #888; }
+	.timeborder 	{ border-right: 1px solid #A1A5A9; border-top: 1px solid #A1A5A9; background-image: url(images/time_bg.gif); }
+	.timeborder2 	{ border-top: 1px solid #A1A5A9; background-image: url(images/time_bg.gif); }
+	.navback 		{ background-image: url(images/time_bg.gif); }
+	.sideback 		{ background-image: url(images/side_bg.gif); }
+	
+	
+	/* Link colors and attributes */
+	/* This is the main link style */
+	a.psf			{ text-decoration:	none; }
+	a.psf:link		{ color: #0066FF; }
+	a.psf:visited	{ color: #0066FF; }
+	a.psf:active	{ color: #3366CC; }
+	a.psf:hover		{ color: #000099; text-decoration: underline; }
+	/* This is the main link style (helle Farben, z.B. gelb)*/
+	.alldaybg_4 a.psf			{ color: #000000; text-decoration:	none; }
+	.alldaybg_4 a.psf:link		{ color: #000000; }
+	.alldaybg_4 a.psf:visited	{ color: #000000; }
+	.alldaybg_4 a.psf:active	{ color: #000000; }
+	.alldaybg_4 a.psf:hover		{ color: #000000; text-decoration: underline; }
+	
+	.alldaybg_5 a.psf			{ color: #000000; text-decoration:	none; }
+	.alldaybg_5 a.psf:link		{ color: #000000; }
+	.alldaybg_5 a.psf:visited	{ color: #000000; }
+	.alldaybg_5 a.psf:active	{ color: #000000; }
+	.alldaybg_5 a.psf:hover		{ color: #000000; text-decoration: underline; }
+	
+	/* This is the link style for the mini-cals */
+	a.ps2			{ text-decoration:	underline; }
+	a.ps2:link		{ color: #0066FF; }
+	a.ps2:visited	{ color: #0066FF; }
+	a.ps2:active	{ color: #3366CC; }
+	a.ps2:hover		{ color: #000099; }
+	
+	/* This is the link style for year months */
+	a.ps3			{ text-decoration:	none; }
+	a.ps3:link		{ color: #000; }
+	a.ps3:visited	{ color: #000; }
+	a.ps3:active	{ color: #000; }
+	a.ps3:hover		{ color: #000; text-decoration: underline; }
+	
+	/* This is the link style for events */
+	a.ps			{ text-decoration:	none; }
+	a.ps:link		{ color: #fff; }
+	a.ps:visited	{ color: #fff; }
+	a.ps:active		{ color: #fff; }
+	a.ps:hover		{ color: #fff; text-decoration: underline; }
+	
+	/* This is the link style for events (helle farben, z.B. gelb)*/
+	.eventbg2_4 a.ps			{ color: #000; text-decoration:	none; }
+	.eventbg2_4 a.ps:link		{ color: #000; }
+	.eventbg2_4 a.ps:visited	{ color: #000; }
+	.eventbg2_4 a.ps:active		{ color: #000; }
+	.eventbg2_4 a.ps:hover		{ color: #000; text-decoration: underline; }
+
+	.eventbg2_5 a.ps			{ color: #000; text-decoration:	none; }
+	.eventbg2_5 a.ps:link		{ color: #000; }
+	.eventbg2_5 a.ps:visited	{ color: #000; }
+	.eventbg2_5 a.ps:active		{ color: #000; }
+	.eventbg2_5 a.ps:hover		{ color: #000; text-decoration: underline; }
+	/* Body attributes */
+	
+/*body			{ background-color: #4E72A6; padding:15px; }
+/*body			{ background-color: #E6E6E6; }*/
+
+
+/* CSS definitions for fonts */
+
+.V9 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; }
+.V10W 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; text-decoration:	none;}
+.V9W 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; text-decoration:	none;}
+.V10WB 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; font-weight: 900; }
+.V9G 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #666666; }
+.V10 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; }
+.V9BOLD 		{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: 900; }
+.G10 			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0066FF; }
+.G10B 			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; }
+.G10BOLD 		{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; }
+.G10G 			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #A1A5A9; }
+.V12 			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;  color: #000000; }
+/*h1 				{ font-family: Helvetica, sans-serif; font-size: 18px; color: #000000; }*/
+.eventfont 		{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; }
+
+
+
